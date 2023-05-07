@@ -1,1 +1,38 @@
+.container {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
 
+  
+  .container button{
+    background-color: rgb(6, 126, 238);
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    bottom: fixed;
+    right: 24px;
+    transition: all 0.1s linear 0.1s;
+  }
+
+  .container button:hover{
+
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 7px 0px;
+    transform: scale(1.1);
+
+  }
+  
